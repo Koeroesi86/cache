@@ -4,6 +4,15 @@
   "main": "index.js",
   "types": "index.d.ts",
   "license": "MIT",
+  "description": "Cache library",
+  "author": {
+    "name": "Krisztian Korosi",
+    "url": "https://github.com/Koeroesi86"
+  },
+  "repository": "github:Koeroesi86/cache",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "rm -rf ./coverage && jest",
     "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx lib/**/*.js",
