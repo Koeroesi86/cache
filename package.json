@@ -5,10 +5,14 @@
   "types": "index.d.ts",
   "license": "MIT",
   "scripts": {
-    "test": "rm -rf ./coverage && jest"
+    "test": "rm -rf ./coverage && jest",
+    "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx lib/**/*.js",
+    "generate-version": "node ./scripts/version.js"
   },
   "devDependencies": {
     "@jest/types": "^26.6.2",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
     "jest": "^26.6.3",
     "prettier": "^2.3.0"
   }

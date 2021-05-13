@@ -1,0 +1,12 @@
+.idea
+.cache
+*.log
+.prettierrc
+.eslintrc
+example
+.travis.yml
+scripts
+jest.config.js
+coverage
+*.spec.js
+__mocks__
