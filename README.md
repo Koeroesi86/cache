@@ -1,4 +1,4 @@
-# @koeroesi86/cache
+# @koeroesi86/cache [![Build Status](https://travis-ci.com/Koeroesi86/cache.svg?branch=main)](https://travis-ci.com/Koeroesi86/cache) [![npm version](https://badge.fury.io/js/%40koeroesi86%2Fcache.svg)](https://badge.fury.io/js/%40koeroesi86%2Fcache)
 
 ### Install
 
